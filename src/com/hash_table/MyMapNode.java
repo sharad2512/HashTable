@@ -37,7 +37,6 @@ public class MyMapNode <K,V> {
         this.next = (MyMapNode<K, V>) next;
     }
 
-    @Override
     public String toString() {
         StringBuilder nodeString = new StringBuilder();
         nodeString.append("MyMapNode{" + " Key= ").append(key).append(" Value= ").append(value).append('}');
